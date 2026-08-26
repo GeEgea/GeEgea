@@ -45,12 +45,12 @@ Open to     : Collaborations · Custom QA implementations · Consulting
 ## 🚀 Featured project
 
 ### [🧪 qa-support-toolkit](https://github.com/GeEgea/qa-support-toolkit)
-> 14 open-source Claude AI skills for QA Engineering — Junior and Pleno level
+> Open-source Claude AI plugin for QA Engineering — Junior and Pleno level
 
-`test-case-generation` · `bug-report` · `regression-plan` · `release-readiness`  
-`api-testing` · `exploratory-testing` · `log-analysis` · `weekly-status-report` · `+6 more`
+`bug-report` · `test-case-generation` · `regression-plan`  
+`exploratory-testing` · `weekly-status-report` · `session-summary-generator`
 
-**This is the public layer.** I also maintain private skill repositories with advanced and domain-specific QA coverage — built around each client's context and needs.
+**This is the public layer.** I maintain a broader private toolkit with additional skills covering advanced topics, regulated domains, and domain-specific workflows — built on demand for each client's context.
 
 > 📩 Need custom skills or a full QA toolkit for your team? **egea.ge@gmail.com**
 
