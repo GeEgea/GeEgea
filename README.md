@@ -14,7 +14,7 @@
 ### 👩‍💻 About me
 
 QA Engineer & AI Quality Specialist with 4+ years in regulated software projects.  
-I build AI-augmented QA workflows, audit AI agents, and lead quality across fintech, legal and contract management platforms — simultaneously as QA Lead and Product Owner.
+I build AI-augmented QA workflows, audit AI agents, and lead quality across fintech, legal and contract management platforms, simultaneously as QA Lead and Product Owner.
 
 ---
 
@@ -34,8 +34,8 @@ I build AI-augmented QA workflows, audit AI agents, and lead quality across fint
 Test case generation · Bug report · Regression plan · Release readiness · API testing · and more  
 `Public · MIT · Free to use`
 
-> I also maintain **private skill repositories** with advanced and domain-specific QA coverage —  
-> built around each client's context and needs.  
+> I also maintain **private skill repositories** with advanced and domain-specific QA coverage, built around each client's context and needs.
+> 
 > Interested? → **egea.ge@gmail.com**
 
 ---
