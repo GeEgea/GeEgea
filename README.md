@@ -1,5 +1,7 @@
-[README.md](https://github.com/user-attachments/files/35051107/README.md)
+[README.md](https://github.com/user-attachments/files/35051735/README.md)
 <div align="center">
+
+[![Consult Egea — site oficial](assets/consult-egea-logo.png)](https://consultegea.com.br/)
 
 # Geovana Egea
 
@@ -7,9 +9,9 @@
 
 **Transformo necessidades de negócio em soluções digitais, processos de qualidade e experiências mais acessíveis.**
 
-[![Portfólio](https://img.shields.io/badge/VER_PORTFÓLIO-0D6B6E?style=for-the-badge)](https://geegea.github.io/GeEgea/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geovana-egea/) [![Email](https://img.shields.io/badge/E--mail-Contato-555?style=for-the-badge&logo=gmail)](mailto:egea.ge@gmail.com)
+[![Consult Egea](https://img.shields.io/badge/Consult_Egea-Site_Oficial-075C84?style=for-the-badge)](https://consultegea.com.br/) [![Portfólio](https://img.shields.io/badge/VER_PORTFÓLIO-0D6B6E?style=for-the-badge)](https://geegea.github.io/GeEgea/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geovana-egea/) [![Email](https://img.shields.io/badge/E--mail-Contato-555?style=for-the-badge&logo=gmail)](mailto:egea.ge@gmail.com)
 
-**São Paulo, Brasil · Projetos e parcerias remotas**
+**São Paulo, Brasil · Produtos disponíveis · Licenciamento · Consultoria**
 
 </div>
 
@@ -19,7 +21,7 @@
 
 Sou profissional de **Quality Assurance**, com experiência em **coordenação da frente de acessibilidade digital**, mentoria de QAs e desenvolvedores, análise de requisitos, visão de produto e gestão de qualidade em ambientes regulados.
 
-Minha atuação conecta as necessidades do cliente à entrega técnica: estruturo estratégias de teste, priorizo riscos, documento sistemas complexos, conduzo validações de acessibilidade e desenvolvo soluções digitais com apoio de inteligência artificial. Atuei em iniciativas nos setores **bancário, jurídico e regulatório**, incluindo trabalhos relacionados a HSBC, Regula BT e Studio Juris.
+Minha atuação conecta as necessidades do cliente à entrega técnica: estruturo estratégias de teste, priorizo riscos, documento sistemas complexos, conduzo validações de acessibilidade e desenvolvo soluções digitais com apoio de inteligência artificial. Atuei em iniciativas nos setores **bancário, jurídico e regulatório**, com foco em qualidade, acessibilidade, documentação e processos de produto.
 
 Além das entregas para clientes, desenvolvo ferramentas próprias na **Consult Egea**, unindo observabilidade, qualidade, acessibilidade e IA. Utilizo IA como apoio à produção e automação, mantendo avaliação humana, rastreabilidade e validação dos resultados.
 
@@ -41,24 +43,32 @@ Além das entregas para clientes, desenvolvo ferramentas próprias na **Consult 
 
 O site apresenta **experiência, cases, trajetória, produtos próprios e ferramentas** em uma página navegável. Nele você encontra trabalhos como:
 
-- **Regula BT** — qualidade de uma plataforma de processos regulatórios, acompanhamento de funcionalidades, documentação de produto e observabilidade.
-- **HSBC** — acessibilidade digital em contexto bancário, com aplicação de critérios WCAG e orientação técnica de equipes.
-- **Studio Juris** — colaboração em produto, prototipação de CRM jurídico e apoio ao ciclo de desenvolvimento.
+- **Tecnologia regulatória e serviços financeiros** — qualidade de uma plataforma de processos regulatórios, acompanhamento de funcionalidades, documentação de produto e observabilidade.
+- **Setor bancário** — acessibilidade digital em contexto bancário, com aplicação de critérios WCAG e orientação técnica de equipes.
+- **Tecnologia jurídica e CRM** — colaboração em produto, prototipação de CRM jurídico e apoio ao ciclo de desenvolvimento.
 - **Avaliação de agentes de IA** — planejamento de cenários, regressão e análise de comportamento com foco em qualidade e confiabilidade.
 - **Documentação e engenharia reversa** — organização de requisitos complexos e rastreabilidade para equipes de produto e desenvolvimento.
 
 *Os exemplos públicos são apresentados em nível profissional, sem disponibilizar informações confidenciais dos clientes.*
 
-## Produtos e iniciativas autorais
+## Produtos Consult Egea — disponíveis comercialmente
 
-| Iniciativa | Proposta | Situação comunicada |
+**Os produtos estão disponíveis para demonstração, negociação, e contratação conforme o escopo.** Atendo empresas e equipes de forma remota. Solicite uma proposta para receber condições comerciais, preços e opções de entrega.
+
+**[Conhecer catálogo e portfólio](https://geegea.github.io/GeEgea/#produtos)** · **[Solicitar demonstração ou orçamento no site da Consult Egea](https://consultegea.com.br/)**
+
+| Produto | Para quem e para quê | Próximo passo |
 |---|---|---|
-| **CE QI+** | Plataforma de gestão de qualidade, assessments, findings, evidências, métricas e relatórios executivos. | Desenvolvimento e validações em andamento. |
-| **CE IA+** | Solução focada em diagnóstico de acessibilidade digital, análise WCAG e relatórios. | Em desenvolvimento. |
-| **QA Nav** | Extensão de navegador para apoiar atividades de teste manual e organização de evidências. | Evolução do produto. |
-| **WCAG Scanner** | Ferramenta de linha de comando para apoiar avaliações automáticas e checklists manuais de acessibilidade. | Em validação. |
-| **QA Support Toolkit** | Skills e materiais reutilizáveis para planejamento e documentação de QA. | [Repositório público](https://github.com/GeEgea/qa-support-toolkit). |
-| **Consult Egea** | Marca voltada a serviços de qualidade, acessibilidade e soluções digitais. | Estruturação comercial. |
+| **CE QI+** | Plataforma para gestão de avaliações, achados, evidências, indicadores e relatórios de qualidade. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **CE IA+** | Solução de apoio à análise de acessibilidade digital e relatórios baseados em WCAG. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **QA Nav** | Extensão de navegador para apoiar testes manuais, investigação de componentes e organização do trabalho de QA. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **WCAG Scanner** | Ferramenta de diagnóstico automatizado de acessibilidade com apoio à avaliação manual. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **CE QI / Command Center** | Painéis de observabilidade, indicadores e acompanhamento de qualidade. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **QA Mãe Skills e AQE Skills** | Conjuntos de skills especializadas de QA e acessibilidade para fluxos assistidos por IA. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+| **QA Support Toolkit** | Materiais e skills disponíveis publicamente; serviços de adaptação e personalização sob consulta. | [Conhecer repositório](https://github.com/GeEgea/qa-support-toolkit) |
+| **Jira Backup Automation** | Solução de apoio a exportação e organização de dados do Jira, sujeita à avaliação de integrações e permissões. | [Solicitar proposta na Consult Egea](https://consultegea.com.br/) |
+
+**Condições comerciais:** preços, forma de licenciamento, implantação, suporte e entregáveis são acordados por proposta. A contratação e a captação de clientes são direcionadas ao site oficial da Consult Egea; o GitHub não processa pagamentos.
 
 ## Ferramentas e tecnologias
 
@@ -76,10 +86,13 @@ O site apresenta **experiência, cases, trajetória, produtos próprios e ferram
 
 Tenho experiência em coordenar esforços de acessibilidade digital, orientar profissionais, acompanhar entregas regulatórias e desenvolver estruturas que tornam a qualidade mais visível. Meu trabalho inclui desde a definição de cenários até relatórios para tomada de decisão, passando por protótipos navegáveis e soluções reutilizáveis.
 
-## Vamos conversar?
+## Contrate uma solução ou converse sobre uma parceria
 
-Estou aberta a **oportunidades profissionais remotas, projetos e parcerias** em qualidade, acessibilidade, análise de produto e soluções digitais.
+**[Acesse a Consult Egea — site oficial para contratação e orçamento](https://consultegea.com.br/)**
 
+A **Consult Egea** oferece produtos e serviços próprios para empresas. Entre em contato para demonstrações, orçamento, licenciamento e personalização. Também estou aberta a parcerias profissionais.
+
+- [Consult Egea — solicitar serviços e produtos](https://consultegea.com.br/)
 - [Portfólio completo](https://geegea.github.io/GeEgea/)
 - [LinkedIn](https://www.linkedin.com/in/geovana-egea/)
 - [GitHub](https://github.com/GeEgea)
