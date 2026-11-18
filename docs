@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Geovana Egea — Portfólio QA</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
 <style>
 /* Direction: deep teal accent over warm neutrals, editorial contrast, Playfair Display + DM Sans */
 :root {
@@ -76,6 +77,12 @@ a:hover { text-decoration: underline; }
 
 .container { max-width: 980px; margin: 0 auto; padding: 0 24px; }
 
+/* ── Identidade Consult Egea ── */
+.brand-logo { display: inline-flex; align-items: center; gap: 12px; color: var(--fg); font-weight: 700; font-size: .98rem; }
+.brand-logo:hover { text-decoration: none; }
+.brand-logo img { width: 56px; height: 56px; object-fit: contain; border-radius: 10px; background: #050509; }
+@media (max-width: 600px) { .brand-logo span { display: none; } .brand-logo img { width: 44px; height: 44px; } }
+.company-link { display: inline-block; margin-top: 12px; font-weight: 600; }
 /* ── NAV ── */
 nav {
   position: sticky; top: 0; z-index: 100;
@@ -268,439 +275,417 @@ footer a { color: var(--accent); }
   section { padding: 48px 0; }
   .section-title { font-size: 1.4rem; }
 }
+
+/* Commercial catalog */
+.product-card{display:flex;flex-direction:column}.product-body{display:flex;flex:1;flex-direction:column}
+.product-body ul{margin-bottom:18px}.product-order{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:16px}
+.product-order a{display:inline-flex;align-items:center;justify-content:center;border-radius:6px;padding:9px 14px;font-size:.83rem;font-weight:700;background:var(--accent);color:#fff}
+.product-order a:hover{background:var(--accent-dark);text-decoration:none}
+.product-order a.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.sale-note{margin:4px 0 20px;color:var(--fg-muted);font-size:.85rem}
+.availability{display:inline-block;color:var(--accent);font-size:.75rem;font-weight:700;margin-top:9px}
 </style>
 </head>
 <body>
-
 <!-- NAV -->
 <nav>
-  <div class="container">
-    <div class="logo">Geovana<span>Egea</span></div>
-    <ul>
-      <li><a href="#expertise">Expertise</a></li>
-      <li><a href="#cases">Cases</a></li>
-      <li><a href="#produtos">Produtos</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </div>
+<div class="container">
+<a class="brand-logo" href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Consult Egea — site oficial"><img src="../assets/consult-egea-logo.png" alt="Consult Egea" width="56" height="56" loading="eager"><span>Geovana Egea</span></a>
+<ul>
+<li><a href="#expertise">Expertise</a></li>
+<li><a href="#cases">Cases</a></li>
+<li><a href="#produtos">Produtos</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</div>
 </nav>
-
 <!-- HERO -->
 <header class="hero">
-  <div class="container">
-    <div class="hero-inner">
-      <div class="label">Quality Engineering · Acessibilidade Digital · Produto</div>
-      <h1>Qualidade de software em <em>domínios regulados</em>, acessibilidade WCAG e avaliação de IA</h1>
-      <p class="lead">Construo ecossistemas de qualidade que combinam ownership de QA, visão de produto e inteligência artificial — de fintechs a legal techs, de auditorias WCAG 2.2 a suítes de regressão para agentes de IA.</p>
-      <div class="cta-row">
-        <a href="#contato" class="btn btn-primary">Fale comigo</a>
-        <a href="#cases" class="btn btn-outline">Ver cases</a>
-        <a href="https://github.com/GeEgea" class="btn btn-outline">Meu GitHub</a>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="hero-inner">
+<div class="label">Quality Engineering · Acessibilidade Digital · Produto</div>
+<h1>Qualidade de software em <em>domínios regulados</em>, acessibilidade WCAG e avaliação de IA</h1>
+<p class="lead">Construo ecossistemas de qualidade que combinam ownership de QA, visão de produto e inteligência artificial — de fintechs a legal techs, de auditorias WCAG 2.2 a suítes de regressão para agentes de IA.</p>
+<div class="cta-row"><a class="btn btn-primary" href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Contratar pela Consult Egea</a><a class="btn btn-outline" href="#produtos">Conhecer produtos</a>
+<a class="btn btn-primary" href="#contato">Fale comigo</a>
+<a class="btn btn-outline" href="#cases">Ver cases</a>
+<a class="btn btn-outline" href="https://github.com/GeEgea">Meu GitHub</a>
+</div>
+</div>
+</div>
 </header>
-
 <!-- STATS -->
 <div class="stats">
-  <div class="stat">
-    <div class="num">5+</div>
-    <div class="txt">Clientes em domínios regulados</div>
-  </div>
-  <div class="stat">
-    <div class="num">20</div>
-    <div class="txt">Módulos QA Platform</div>
-  </div>
-  <div class="stat">
-    <div class="num">77</div>
-    <div class="txt">Modos de teste (plugin QA Mãe)</div>
-  </div>
-  <div class="stat">
-    <div class="num">204</div>
-    <div class="txt">Modos QA totais criados</div>
-  </div>
+<div class="stat">
+<div class="num">5+</div>
+<div class="txt">Clientes em domínios regulados</div>
 </div>
-
+<div class="stat">
+<div class="num">20</div>
+<div class="txt">Módulos QA Platform</div>
+</div>
+<div class="stat">
+<div class="num">77</div>
+<div class="txt">Modos de teste (plugin QA Mãe)</div>
+</div>
+<div class="stat">
+<div class="num">204</div>
+<div class="txt">Modos QA totais criados</div>
+</div>
+</div>
 <!-- EXPERTISE -->
 <section id="expertise">
-  <div class="container">
-    <div class="section-label">Expertise</div>
-    <h2 class="section-title">O que entrego</h2>
-    <p class="section-desc">Uma combinação rara de profundidade técnica em QA, visão de produto e domínio regulatório — potencializada por IA.</p>
-
-    <div class="expertise-grid">
-      <div class="exp-card">
-        <div class="icon">♿</div>
-        <h3>Acessibilidade Digital (WCAG 2.2)</h3>
-        <p>Auditorias completas de conformidade WCAG 2.1 AA / 2.2, cobrindo 24 dimensões — do scan automatizado com axe-core até testes manuais com leitores de tela, teclado e dispositivos móveis. Mentoria de times de desenvolvimento em práticas acessíveis.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">🏦</div>
-        <h3>QA em Domínios Regulados</h3>
-        <p>Experiência consolidada em fintech (RegulaBT), banking/acessibilidade (HSBC), legal tech (Studio Júris CRM) e seguros. Domínio de compliance, controle de acesso, auditoria de dados e fluxos transacionais regulamentados.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">🤖</div>
-        <h3>Avaliação de Qualidade de IA</h3>
-        <p>Testes de agentes LLM, suítes de regressão ancoradas em cláusulas de system prompt, cobertura de cenários adversariais e edge cases. Avaliação de grounding, alucinação, tool calling e autonomia de agentes.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">📊</div>
-        <h3>Ownership de Produto + QA</h3>
-        <p>Papel híbrido QA + Product Owner — especificação de requisitos, priorização de backlog, definição de critérios de aceite e rastreabilidade de ponta a ponta. Visão de negócio aplicada à qualidade.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">🔧</div>
-        <h3>Ferramentas e Ecossistemas QA</h3>
-        <p>Criação de plugins, skills e plataformas QA completas — do design de arquitetura ao produto comercializável. Automação de processos com IA, dashboards de qualidade e centros de comando de QA.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">📋</div>
-        <h3>Documentação e Governança</h3>
-        <p>Manuais de produto, especificações de 1.000+ páginas extraídas de Jira, relatórios de conformidade WCAG, postmortems e documentação de engenharia reversa de sistemas legados.</p>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="section-label">Expertise</div>
+<h2 class="section-title">O que entrego</h2>
+<p class="section-desc">Uma combinação rara de profundidade técnica em QA, visão de produto e domínio regulatório — potencializada por IA.</p>
+<div class="expertise-grid">
+<div class="exp-card">
+<div class="icon">♿</div>
+<h3>Acessibilidade Digital (WCAG 2.2)</h3>
+<p>Auditorias completas de conformidade WCAG 2.1 AA / 2.2, cobrindo 24 dimensões — do scan automatizado com axe-core até testes manuais com leitores de tela, teclado e dispositivos móveis. Mentoria de times de desenvolvimento em práticas acessíveis.</p>
+</div>
+<div class="exp-card">
+<div class="icon">🏦</div>
+<h3>QA em Domínios Regulados</h3>
+<p>Experiência consolidada em tecnologia regulatória, setor bancário, tecnologia jurídica e seguros. Domínio de compliance, controle de acesso, auditoria de dados e fluxos transacionais regulamentados.</p>
+</div>
+<div class="exp-card">
+<div class="icon">🤖</div>
+<h3>Avaliação de Qualidade de IA</h3>
+<p>Testes de agentes LLM, suítes de regressão ancoradas em cláusulas de system prompt, cobertura de cenários adversariais e edge cases. Avaliação de grounding, alucinação, tool calling e autonomia de agentes.</p>
+</div>
+<div class="exp-card">
+<div class="icon">📊</div>
+<h3>Ownership de Produto + QA</h3>
+<p>Papel híbrido QA + Product Owner — especificação de requisitos, priorização de backlog, definição de critérios de aceite e rastreabilidade de ponta a ponta. Visão de negócio aplicada à qualidade.</p>
+</div>
+<div class="exp-card">
+<div class="icon">🔧</div>
+<h3>Ferramentas e Ecossistemas QA</h3>
+<p>Criação de plugins, skills e plataformas QA completas — do design de arquitetura ao produto comercializável. Automação de processos com IA, dashboards de qualidade e centros de comando de QA.</p>
+</div>
+<div class="exp-card">
+<div class="icon">📋</div>
+<h3>Documentação e Governança</h3>
+<p>Manuais de produto, especificações de 1.000+ páginas extraídas de Jira, relatórios de conformidade WCAG, postmortems e documentação de engenharia reversa de sistemas legados.</p>
+</div>
+</div>
+</div>
 </section>
-
 <!-- CASES -->
 <section id="cases">
-  <div class="container">
-    <div class="section-label">Cases</div>
-    <h2 class="section-title">Trabalhos realizados</h2>
-    <p class="section-desc">Uma seleção de projetos que demonstram profundidade técnica, impacto real e construção de ativos reutilizáveis.</p>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">01</div>
-        <div>
-          <h3>QA Command Center e Ownership de Qualidade</h3>
-          <div class="client">RegulaBT — Fintech de Atendimento Regulatório</div>
-        </div>
-      </div>
-      <p class="body">QA owner de ponta a ponta de uma plataforma fintech que gerencia atendimento regulatório para múltiplas instituições financeiras. Conduzi sessões de execução ao vivo via Claude for Chrome, produzindo suítes de 75 casos de teste, com 16 casos críticos executados e 3 bugs de severidade alta identificados (falha silenciosa de edição, falha de criação de eventos e double-conversion de timezone). Construí o manual de produto em formato branded, executei QA de funcionalidades como Organograma Institucional e sistema de notificações, e identifiquei e reportei problemas relacionados a controles de acesso, por canais apropriados.</p>
-      <div class="tags">
-        <span class="tag">Fintech</span>
-        <span class="tag">QA Ownership</span>
-        <span class="tag">Controle de acesso</span>
-        <span class="tag">Claude for Chrome</span>
-        <span class="tag">Manual de Produto</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">02</div>
-        <div>
-          <h3>Auditoria de Acessibilidade WCAG 2.1 AA</h3>
-          <div class="client">HSBC — Banking &amp; Acessibilidade</div>
-        </div>
-      </div>
-      <p class="body">Trabalho de acessibilidade digital para um dos maiores bancos do mundo, aplicando conformidade WCAG 2.1 AA em fluxos bancários. Especialização que se tornou o pilar central do meu posicionamento profissional — cobrindo desde scan automatizado até testes manuais com tecnologias assistivas, em um ambiente regulatório exigente do setor financeiro.</p>
-      <div class="tags">
-        <span class="tag">WCAG 2.1 AA</span>
-        <span class="tag">Banking</span>
-        <span class="tag">Acessibilidade</span>
-        <span class="tag">Domínio Regulado</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">03</div>
-        <div>
-          <h3>Suíte de Regressão para Agente de IA</h3>
-          <div class="client">Blunana — Agente LLM Agentic</div>
-        </div>
-      </div>
-      <p class="body">Construí e testei uma suíte de 28 casos de regressão para um agente LLM interno com acesso a ferramentas de leitura e escrita, organizada em blocos de Golden Path, Ambíguo, Adversarial, Fora de Escopo e Edge Case. Cada caso é ancorado diretamente a cláusulas do system prompt. Iniciei engenharia reversa do ambiente de desenvolvimento, documentando regras de negócio, catálogos de API e matrizes de permissão.</p>
-      <div class="tags">
-        <span class="tag">AI Testing</span>
-        <span class="tag">LLM Agent</span>
-        <span class="tag">Regressão</span>
-        <span class="tag">Adversarial Testing</span>
-        <span class="tag">Engenharia Reversa</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">04</div>
-        <div>
-          <h3>Protótipo CRM e Migração Vue 3</h3>
-          <div class="client">Studio Júris — Legal Tech / CRM Jurídico</div>
-        </div>
-      </div>
-      <p class="body">Construí e iterai múltiplas versões do protótipo de CRM para o setor jurídico — desde o SPA dark-mode com RBAC de 5 níveis de permissão até a migração completa para Vue 3 + Vite + Pinia: 46 arquivos, 17 views, 8 tipos de gráficos, arquitetura de stores e composables. Gestão de QA contínua via QA Command Center.</p>
-      <div class="tags">
-        <span class="tag">Legal Tech</span>
-        <span class="tag">Vue 3 + Vite + Pinia</span>
-        <span class="tag">CRM</span>
-        <span class="tag">RBAC</span>
-        <span class="tag">Prototipação</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">05</div>
-        <div>
-          <h3>Especificação PM10 — 1.064 Páginas de Jira</h3>
-          <div class="client">Plataforma Maia 1.0</div>
-        </div>
-      </div>
-      <p class="body">Extração e compilação de um documento de especificação de 1.064 páginas a partir de 2.161 issues do Jira, incluindo comentários completos e bugs integrados hierarquicamente. Utilizei o conector Atlassian Rovo MCP e desenvolvi uma metodologia sistemática de extração com três queries JQL sequenciais (epics → stories/tasks → subtasks) para preservar toda a hierarquia do projeto.</p>
-      <div class="tags">
-        <span class="tag">Documentação</span>
-        <span class="tag">Jira / Rovo MCP</span>
-        <span class="tag">1.064 páginas</span>
-        <span class="tag">2.161 issues</span>
-        <span class="tag">Extração Sistemática</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">06</div>
-        <div>
-          <h3>QA Platform — Ecossistema de 20 Módulos</h3>
-          <div class="client">Produto Próprio</div>
-        </div>
-      </div>
-      <p class="body">Ecossistema interativo de QA com 20 módulos HTML em português brasileiro, layout consistente de três colunas e thread narrativa contínua (REGULA-247, BUG-04 race condition). Módulos incluem QA Visual Inspector, Accessibility Scanner Pro, UX Quality Analyzer, Screen Intelligence e Requirements AI, todos com navegação completa do login ao portal hub.</p>
-      <div class="tags">
-        <span class="tag">Produto Próprio</span>
-        <span class="tag">20 Módulos</span>
-        <span class="tag">HTML Interativo</span>
-        <span class="tag">Acessibilidade Scanner</span>
-      </div>
-    </div>
-
-    <div class="case">
-      <div class="case-header">
-        <div class="case-badge">07</div>
-        <div>
-          <h3>CE QI — Centro de Inteligência de Qualidade</h3>
-          <div class="client">Blue Projects — Transformação Digital</div>
-        </div>
-      </div>
-      <p class="body">Liderei iniciativa de transformação digital com IA na Blue Projects, concebendo e construindo o CE QI (CE Quality Intelligence) — um centro de observabilidade de qualidade que integra dashboards, rastreabilidade e inteligência artificial ao processo de QA da consultoria.</p>
-      <div class="tags">
-        <span class="tag">Transformação Digital</span>
-        <span class="tag">IA + QA</span>
-        <span class="tag">Observabilidade</span>
-        <span class="tag">Liderança</span>
-      </div>
-    </div>
-
-  </div>
+<div class="container">
+<div class="section-label">Cases</div>
+<h2 class="section-title">Trabalhos realizados</h2>
+<p class="section-desc">Uma seleção de projetos que demonstram profundidade técnica, impacto real e construção de ativos reutilizáveis.</p>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">01</div>
+<div>
+<h3>QA Command Center e Ownership de Qualidade</h3>
+<div class="client">Tecnologia regulatória e serviços financeiros</div>
+</div>
+</div>
+<p class="body">QA owner de ponta a ponta de uma plataforma fintech que gerencia atendimento regulatório para múltiplas instituições financeiras. Conduzi sessões de execução ao vivo via Claude for Chrome, produzindo suítes de 75 casos de teste, com 16 casos críticos executados e 3 bugs de severidade alta identificados (falha silenciosa de edição, falha de criação de eventos e double-conversion de timezone). Construí o manual de produto em formato branded, executei QA de funcionalidades como Organograma Institucional e sistema de notificações, e identifiquei e reportei problemas relacionados a controles de acesso, por canais apropriados.</p>
+<div class="tags">
+<span class="tag">Fintech</span>
+<span class="tag">QA Ownership</span>
+<span class="tag">Controle de acesso</span>
+<span class="tag">Claude for Chrome</span>
+<span class="tag">Manual de Produto</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">02</div>
+<div>
+<h3>Auditoria de Acessibilidade WCAG 2.1 AA</h3>
+<div class="client">Setor bancário — Acessibilidade Digital</div>
+</div>
+</div>
+<p class="body">Trabalho de acessibilidade digital para uma instituição do setor bancário, aplicando conformidade WCAG 2.1 AA em fluxos bancários. Especialização que se tornou o pilar central do meu posicionamento profissional — cobrindo desde scan automatizado até testes manuais com tecnologias assistivas, em um ambiente regulatório exigente do setor financeiro.</p>
+<div class="tags">
+<span class="tag">WCAG 2.1 AA</span>
+<span class="tag">Banking</span>
+<span class="tag">Acessibilidade</span>
+<span class="tag">Domínio Regulado</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">03</div>
+<div>
+<h3>Suíte de Regressão para Agente de IA</h3>
+<div class="client">Inteligência Artificial — Agentes LLM</div>
+</div>
+</div>
+<p class="body">Construí e testei uma suíte de 28 casos de regressão para um agente LLM interno com acesso a ferramentas de leitura e escrita, organizada em blocos de Golden Path, Ambíguo, Adversarial, Fora de Escopo e Edge Case. Cada caso é ancorado diretamente a cláusulas do system prompt. Iniciei engenharia reversa do ambiente de desenvolvimento, documentando regras de negócio, catálogos de API e matrizes de permissão.</p>
+<div class="tags">
+<span class="tag">AI Testing</span>
+<span class="tag">LLM Agent</span>
+<span class="tag">Regressão</span>
+<span class="tag">Adversarial Testing</span>
+<span class="tag">Engenharia Reversa</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">04</div>
+<div>
+<h3>Protótipo CRM e Migração Vue 3</h3>
+<div class="client">Tecnologia jurídica — CRM e gestão documental</div>
+</div>
+</div>
+<p class="body">Construí e iterai múltiplas versões do protótipo de CRM para o setor jurídico — desde o SPA dark-mode com RBAC de 5 níveis de permissão até a migração completa para Vue 3 + Vite + Pinia: 46 arquivos, 17 views, 8 tipos de gráficos, arquitetura de stores e composables. Gestão de QA contínua via QA Command Center.</p>
+<div class="tags">
+<span class="tag">Legal Tech</span>
+<span class="tag">Vue 3 + Vite + Pinia</span>
+<span class="tag">CRM</span>
+<span class="tag">RBAC</span>
+<span class="tag">Prototipação</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">05</div>
+<div>
+<h3>Especificação PM10 — 1.064 Páginas de Jira</h3>
+<div class="client">Sistemas corporativos — Gestão de requisitos</div>
+</div>
+</div>
+<p class="body">Extração e compilação de um documento de especificação de 1.064 páginas a partir de 2.161 issues do Jira, incluindo comentários completos e bugs integrados hierarquicamente. Utilizei o conector Atlassian Rovo MCP e desenvolvi uma metodologia sistemática de extração com três queries JQL sequenciais (epics → stories/tasks → subtasks) para preservar toda a hierarquia do projeto.</p>
+<div class="tags">
+<span class="tag">Documentação</span>
+<span class="tag">Jira / Rovo MCP</span>
+<span class="tag">1.064 páginas</span>
+<span class="tag">2.161 issues</span>
+<span class="tag">Extração Sistemática</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">06</div>
+<div>
+<h3>QA Platform — Ecossistema de 20 Módulos</h3>
+<div class="client">Produto Próprio</div>
+</div>
+</div>
+<p class="body">Ecossistema interativo de QA com 20 módulos HTML em português brasileiro, layout consistente de três colunas e thread narrativa contínua (fluxos simulados e condições de concorrência). Módulos incluem QA Visual Inspector, Accessibility Scanner Pro, UX Quality Analyzer, Screen Intelligence e Requirements AI, todos com navegação completa do login ao portal hub.</p>
+<div class="tags">
+<span class="tag">Produto Próprio</span>
+<span class="tag">20 Módulos</span>
+<span class="tag">HTML Interativo</span>
+<span class="tag">Acessibilidade Scanner</span>
+</div>
+</div>
+<div class="case">
+<div class="case-header">
+<div class="case-badge">07</div>
+<div>
+<h3>CE QI — Centro de Inteligência de Qualidade</h3>
+<div class="client">Consultoria de tecnologia — Transformação Digital</div>
+</div>
+</div>
+<p class="body">Liderei iniciativa de transformação digital com IA em ambiente de consultoria, concebendo e construindo o CE QI (CE Quality Intelligence) — um centro de observabilidade de qualidade que integra dashboards, rastreabilidade e inteligência artificial ao processo de QA da consultoria.</p>
+<div class="tags">
+<span class="tag">Transformação Digital</span>
+<span class="tag">IA + QA</span>
+<span class="tag">Observabilidade</span>
+<span class="tag">Liderança</span>
+</div>
+</div>
+</div>
 </section>
-
 <!-- PRODUCTS -->
 <section id="produtos">
-  <div class="container">
-    <div class="section-label">Produtos &amp; Ativos</div>
-    <h2 class="section-title">O que construí</h2>
-    <p class="section-desc">Ferramentas, plugins e ativos comercializáveis criados sob marca própria — de skills reutilizáveis a produtos de prateleira.</p>
-
-    <div class="products-grid">
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">🧩</div>
-          <h3>QA Mãe Skills</h3>
-        </div>
-        <div class="product-body">
-          <p>Plugin com 13 skills-mãe e 204 modos de teste, cobrindo todo o ciclo de QA — de requisitos a release gate.</p>
-          <ul>
-            <li>77 modos no pacote principal (5 skill files)</li>
-            <li>Governança obrigatória: Claude recomenda, humano decide</li>
-            <li>Funcional, API, UI, Performance, Segurança, IA, Dados, Resiliência, Mobile, Acessibilidade, Regressão, Release</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">♿</div>
-          <h3>CE AI+</h3>
-        </div>
-        <div class="product-body">
-          <p>Consult Egea Accessibility Intelligence — ferramenta que varre URLs e gera relatórios de acessibilidade WCAG 2.2.</p>
-          <ul>
-            <li>Diagnóstico preliminar não invasivo de páginas públicas</li>
-            <li>Tela com campo de busca por endereço → scan → relatório</li>
-            <li>24 skills de acessibilidade como motor</li>
-            <li>Deploy planejado no Render</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">🧭</div>
-          <h3>QA Nav</h3>
-        </div>
-        <div class="product-body">
-          <p>Ferramenta de QA local-first como sidebar no Chrome/Edge — sem dependência de backend.</p>
-          <ul>
-            <li>Funciona direto no navegador do testador</li>
-            <li>Material de apresentação e demonstração em desenvolvimento</li>
-            <li>Zero infraestrutura necessária</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">📦</div>
-          <h3>QA Support Toolkit</h3>
-        </div>
-        <div class="product-body">
-          <p>Toolkit público no GitHub com 6 skills reutilizáveis de QA para qualquer equipe.</p>
-          <ul>
-            <li>Bug Report, Test Case Generation, Regression Plan</li>
-            <li>Exploratory Testing, Weekly Status, Session Summary</li>
-            <li>Parte do ecossistema open-source</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">⚡</div>
-          <h3>AQE Skills</h3>
-        </div>
-        <div class="product-body">
-          <p>Ecossistema de 24 skills especialistas de acessibilidade WCAG 2.2, orquestradas por uma camada 0.</p>
-          <ul>
-            <li>Cobertura completa: semântica HTML, ARIA, teclado, foco, cor, mídia, mobile, AT, touch, cognitivo</li>
-            <li>Orquestrador que decide qual skill acionar</li>
-            <li>Relatórios VPAT/ACR, treinamento e governança</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-top">
-          <div class="product-icon">🔄</div>
-          <h3>Jira Backup Automation</h3>
-        </div>
-        <div class="product-body">
-          <p>Script Python que extrai e faz backup de 8 contas Jira com output HTML, filtros e downloads.</p>
-          <ul>
-            <li>Suporte a Jira Cloud + JSM</li>
-            <li>Paginação por token, filtros funcionais</li>
-            <li>Metodologia de extração Jira/Rovo documentada</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </div>
+<div class="container">
+<div class="section-label">Produtos &amp; Ativos</div>
+<h2 class="section-title">Produtos e soluções disponíveis</h2>
+<p class="section-desc">Soluções da Consult Egea disponíveis para contratação, licenciamento ou demonstração. Solicite apresentação, condições comerciais e escopo pelo e-mail.</p>
+<p class="sale-note">Condições comerciais, valores, licenciamento, implantação e suporte são definidos por proposta. Contratação e captação de clientes pelo site oficial: <a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">consultegea.com.br</a>. Este portfólio não realiza pagamentos online.</p><div class="products-grid"><div class="product-card"><div class="product-top"><h3>CE QI — Command Center</h3></div><div class="product-body"><p>Painéis de acompanhamento e observabilidade de qualidade, com visão consolidada de execuções, defeitos e indicadores.</p><ul><li>Dashboards e métricas</li><li>Acompanhamento da qualidade</li><li>Implantação e personalização sob consulta</li></ul><span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div></div><div class="product-card"><div class="product-top"><h3>WCAG Scanner</h3></div><div class="product-body"><p>Ferramenta de apoio à avaliação de acessibilidade em páginas web, com verificações automatizadas e roteiro de validação manual.</p><ul><li>Diagnóstico de acessibilidade</li><li>Relatórios de apoio a WCAG 2.2 A/AA</li><li>Escopo e condições de uso sob consulta</li></ul><span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div></div><div class="product-card"><div class="product-top"><h3>CE QI+ — Quality Intelligence</h3></div><div class="product-body"><p>Plataforma para organizar avaliações, testes, achados, evidências, métricas e relatórios executivos de qualidade.</p><ul><li>Gestão de portfólio e avaliações</li><li>Rastreabilidade e relatórios</li><li>Apresentação de módulos e condições de acesso sob consulta</li></ul><span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div></div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">🧩</div>
+<h3>QA Mãe Skills</h3>
+</div>
+<div class="product-body">
+<p>Plugin com 13 skills-mãe e 204 modos de teste, cobrindo todo o ciclo de QA — de requisitos a release gate.</p>
+<ul>
+<li>77 modos no pacote principal (5 skill files)</li>
+<li>Governança obrigatória: Claude recomenda, humano decide</li>
+<li>Funcional, API, UI, Performance, Segurança, IA, Dados, Resiliência, Mobile, Acessibilidade, Regressão, Release</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">♿</div>
+<h3>CE IA+ — Accessibility Intelligence</h3>
+</div>
+<div class="product-body">
+<p>Consult Egea Accessibility Intelligence — ferramenta que varre URLs e gera relatórios de acessibilidade WCAG 2.2.</p>
+<ul>
+<li>Diagnóstico preliminar não invasivo de páginas públicas</li>
+<li>Tela com campo de busca por endereço → scan → relatório</li>
+<li>24 skills de acessibilidade como motor</li>
+<li>Apresentação comercial e opções de implantação sob consulta</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">🧭</div>
+<h3>QA Nav</h3>
+</div>
+<div class="product-body">
+<p>Ferramenta de QA local-first como sidebar no Chrome/Edge — sem dependência de backend.</p>
+<ul>
+<li>Funciona direto no navegador do testador</li>
+<li>Material de apresentação e demonstração em desenvolvimento</li>
+<li>Zero infraestrutura necessária</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">📦</div>
+<h3>QA Support Toolkit</h3>
+</div>
+<div class="product-body">
+<p>Toolkit público no GitHub com 6 skills reutilizáveis de QA para qualquer equipe.</p>
+<ul>
+<li>Bug Report, Test Case Generation, Regression Plan</li>
+<li>Exploratory Testing, Weekly Status, Session Summary</li>
+<li>Versão pública para conhecer a metodologia e soluções personalizadas sob consulta</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">⚡</div>
+<h3>AQE Skills</h3>
+</div>
+<div class="product-body">
+<p>Ecossistema de 24 skills especialistas de acessibilidade WCAG 2.2, orquestradas por uma camada 0.</p>
+<ul>
+<li>Cobertura completa: semântica HTML, ARIA, teclado, foco, cor, mídia, mobile, AT, touch, cognitivo</li>
+<li>Orquestrador que decide qual skill acionar</li>
+<li>Relatórios VPAT/ACR, treinamento e governança</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+<div class="product-card">
+<div class="product-top">
+<div class="product-icon">🔄</div>
+<h3>Jira Backup Automation</h3>
+</div>
+<div class="product-body">
+<p>Script Python que extrai e faz backup de 8 contas Jira com output HTML, filtros e downloads.</p>
+<ul>
+<li>Suporte a Jira Cloud + JSM</li>
+<li>Paginação por token, filtros funcionais</li>
+<li>Metodologia de extração Jira/Rovo documentada</li>
+</ul>
+<span class="availability">Disponível para consulta comercial e demonstração</span><div class="product-order"><a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Solicitar proposta na Consult Egea</a></div></div>
+</div>
+</div>
+</div>
 </section>
-
 <!-- TOOLS -->
 <section id="ferramentas">
-  <div class="container">
-    <div class="section-label">Stack &amp; Ferramentas</div>
-    <h2 class="section-title">Com o que trabalho</h2>
-    <p class="section-desc">As ferramentas que uso no dia a dia para construir, testar e entregar.</p>
-
-    <div class="tools-flex">
-      <span class="tool-pill highlight">WCAG 2.1 AA / 2.2</span>
-      <span class="tool-pill highlight">Claude for Chrome</span>
-      <span class="tool-pill highlight">IA / LLM Testing</span>
-      <span class="tool-pill">axe-core</span>
-      <span class="tool-pill">Jira / Rovo MCP</span>
-      <span class="tool-pill">Vue 3 + Vite + Pinia</span>
-      <span class="tool-pill">Node.js (docx, pptxgenjs)</span>
-      <span class="tool-pill">Python</span>
-      <span class="tool-pill">HTML / CSS / JavaScript</span>
-      <span class="tool-pill">QA Command Center</span>
-      <span class="tool-pill">Git / GitHub</span>
-      <span class="tool-pill">Atlassian Cloud API</span>
-      <span class="tool-pill">Flask</span>
-      <span class="tool-pill">Postman / Newman</span>
-      <span class="tool-pill">Lighthouse</span>
-      <span class="tool-pill">NVDA / VoiceOver</span>
-    </div>
-  </div>
+<div class="container">
+<div class="section-label">Stack &amp; Ferramentas</div>
+<h2 class="section-title">Com o que trabalho</h2>
+<p class="section-desc">As ferramentas que uso no dia a dia para construir, testar e entregar.</p>
+<div class="tools-flex">
+<span class="tool-pill highlight">WCAG 2.1 AA / 2.2</span>
+<span class="tool-pill highlight">Claude for Chrome</span>
+<span class="tool-pill highlight">IA / LLM Testing</span>
+<span class="tool-pill">axe-core</span>
+<span class="tool-pill">Jira / Rovo MCP</span>
+<span class="tool-pill">Vue 3 + Vite + Pinia</span>
+<span class="tool-pill">Node.js (docx, pptxgenjs)</span>
+<span class="tool-pill">Python</span>
+<span class="tool-pill">HTML / CSS / JavaScript</span>
+<span class="tool-pill">QA Command Center</span>
+<span class="tool-pill">Git / GitHub</span>
+<span class="tool-pill">Atlassian Cloud API</span>
+<span class="tool-pill">Flask</span>
+<span class="tool-pill">Postman / Newman</span>
+<span class="tool-pill">Lighthouse</span>
+<span class="tool-pill">NVDA / VoiceOver</span>
+</div>
+</div>
 </section>
-
 <!-- TRAJECTORY -->
 <section id="trajetoria">
-  <div class="container">
-    <div class="section-label">Trajetória</div>
-    <h2 class="section-title">Evolução profissional</h2>
-    <p class="section-desc">Do QA operacional ao ecossistema de qualidade com IA — uma construção deliberada.</p>
-
-    <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-date">2026</div>
-        <h3>Independência e Especialização em Acessibilidade</h3>
-        <p>Saída voluntária da Blue Projects. Foco em acessibilidade digital como oferta principal — auditorias WCAG 2.2 de escopo fixo. Construção do CE AI+ (ferramenta de scan de acessibilidade). Posicionamento como QA Engineer Sênior com especialização em acessibilidade, domínios regulados e avaliação de IA.</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">2025–2026</div>
-        <h3>QA Engineer + Product Owner na Blue Projects</h3>
-        <p>Papel híbrido QA + PO atendendo clientes de domínio regulado (RegulaBT, HSBC, Blunana, Studio Júris, EPM20). Liderança do CE QI — centro de inteligência de qualidade. Criação do ecossistema de 204 modos de teste, 20 módulos QA Platform e suítes de regressão para agentes de IA. Mentoria de profissionais juniores.</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">Anteriores</div>
-        <h3>Base em Software Regulado no Brasil</h3>
-        <p>Experiência consolidada em software de domínios regulados brasileiros — fintech, legal tech e banking. Construção de competência em compliance, fluxos transacionais, controle de acesso e documentação de conformidade que se tornaram a fundação de toda a trajetória posterior.</p>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="section-label">Trajetória</div>
+<h2 class="section-title">Evolução profissional</h2>
+<p class="section-desc">Do QA operacional ao ecossistema de qualidade com IA — uma construção deliberada.</p>
+<div class="timeline">
+<div class="tl-item">
+<div class="tl-date">2026</div>
+<h3>Independência e Especialização em Acessibilidade</h3>
+<p>Transição para atuação independente. Foco em acessibilidade digital como oferta principal — auditorias WCAG 2.2 de escopo fixo. Construção do CE AI+ (ferramenta de scan de acessibilidade). Posicionamento como QA Engineer Sênior com especialização em acessibilidade, domínios regulados e avaliação de IA.</p>
+</div>
+<div class="tl-item">
+<div class="tl-date">2025–2026</div>
+<h3>QA Engineer + Product Owner em consultoria de tecnologia</h3>
+<p>Papel híbrido QA + PO atendendo projetos de tecnologia regulatória, setor bancário, inteligência artificial e tecnologia jurídica. Liderança do CE QI — centro de inteligência de qualidade. Criação do ecossistema de 204 modos de teste, 20 módulos QA Platform e suítes de regressão para agentes de IA. Mentoria de profissionais juniores.</p>
+</div>
+<div class="tl-item">
+<div class="tl-date">Anteriores</div>
+<h3>Base em Software Regulado no Brasil</h3>
+<p>Experiência consolidada em software de domínios regulados brasileiros — fintech, legal tech e banking. Construção de competência em compliance, fluxos transacionais, controle de acesso e documentação de conformidade que se tornaram a fundação de toda a trajetória posterior.</p>
+</div>
+</div>
+</div>
 </section>
-
 <!-- DIFFERENTIALS -->
 <section>
-  <div class="container">
-    <div class="section-label">Diferenciais</div>
-    <h2 class="section-title">Por que trabalhar comigo</h2>
-
-    <div class="expertise-grid">
-      <div class="exp-card">
-        <div class="icon">🎯</div>
-        <h3>Combinação rara</h3>
-        <p>QA + Produto + Acessibilidade + IA em uma única profissional. Não apenas testo — entendo o negócio, o compliance e as decisões de produto por trás de cada funcionalidade.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">🏗️</div>
-        <h3>Construo ativos, não apenas relatórios</h3>
-        <p>Ferramentas, plugins, ecossistemas inteiros de qualidade — ativos reutilizáveis que ficam com o cliente. 204 modos de teste, 24 skills de acessibilidade, plataformas completas.</p>
-      </div>
-      <div class="exp-card">
-        <div class="icon">🔍</div>
-        <h3>Profundidade em domínios regulados</h3>
-        <p>Anos trabalhando com fintech, banking e legal tech no Brasil. Conheço os riscos, as normas e o que auditores realmente cobram.</p>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="section-label">Diferenciais</div>
+<h2 class="section-title">Por que trabalhar comigo</h2>
+<div class="expertise-grid">
+<div class="exp-card">
+<div class="icon">🎯</div>
+<h3>Combinação rara</h3>
+<p>QA + Produto + Acessibilidade + IA em uma única profissional. Não apenas testo — entendo o negócio, o compliance e as decisões de produto por trás de cada funcionalidade.</p>
+</div>
+<div class="exp-card">
+<div class="icon">🏗️</div>
+<h3>Construo ativos, não apenas relatórios</h3>
+<p>Ferramentas, plugins, ecossistemas inteiros de qualidade — ativos reutilizáveis que ficam com o cliente. 204 modos de teste, 24 skills de acessibilidade, plataformas completas.</p>
+</div>
+<div class="exp-card">
+<div class="icon">🔍</div>
+<h3>Profundidade em domínios regulados</h3>
+<p>Anos trabalhando com fintech, banking e legal tech no Brasil. Conheço os riscos, as normas e o que auditores realmente cobram.</p>
+</div>
+</div>
+</div>
 </section>
-
 <!-- CTA FINAL -->
 <div class="final-cta">
-  <div class="container">
-    <h2>Vamos conversar sobre qualidade</h2>
-    <p>Auditoria de acessibilidade, QA para domínios regulados ou avaliação de IA — me conta o que precisa.</p>
-    <a href="mailto:egea.ge@gmail.com" class="btn btn-white">egea.ge@gmail.com</a>
-  </div>
+<div class="container">
+<h2>Solicite uma demonstração ou proposta</h2>
+<p>Conheça os produtos e soluções da Consult Egea. Informe o produto de interesse para receber condições comerciais, disponibilidade de implantação e escopo.</p>
+<a class="btn btn-white" href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Acessar Consult Egea e solicitar proposta</a>
 </div>
-
+</div>
 <!-- FOOTER -->
 <footer id="contato">
-  <div class="container">
-    <p>
+<div class="container">
+<p>
+<a href="https://consultegea.com.br/" target="_blank" rel="noopener noreferrer">Consult Egea — Site oficial</a> ·
       <a href="mailto:egea.ge@gmail.com">Email</a> ·
-      <a href="https://github.com/GeEgea" target="_blank" rel="noopener">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/geovana-egea/" target="_blank" rel="noopener">LinkedIn</a>
-    </p>
-    <p style="margin-top: 8px;">Geovana Egea — Quality Engineering · São Paulo, Brasil</p>
-  </div>
+      <a href="https://github.com/GeEgea" rel="noopener" target="_blank">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/geovana-egea/" rel="noopener" target="_blank">LinkedIn</a>
+</p>
+<p style="margin-top: 8px;">Geovana Egea — Quality Engineering · São Paulo, Brasil</p>
+</div>
 </footer>
-
 </body>
 </html>
