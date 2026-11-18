@@ -1,90 +1,90 @@
+[README.md](https://github.com/user-attachments/files/35051107/README.md)
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=4F46E5&center=true&vCenter=true&width=700&lines=Quality+Engineering+Lead;AI+Evaluation+%26+QA+Automation;WCAG+2.1+AA+%7C+Fintech+%7C+Regulated+Systems;Building+AI-powered+QA+tooling" alt="Typing SVG" />
+# Geovana Egea
 
-<br/>
+### Quality Engineering • Coordenação de Acessibilidade Digital • Produto & IA
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Geovana%20Egea-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geovana-egea/)
-[![Email](https://img.shields.io/badge/Email-egea.ge%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:egea.ge@gmail.com)
-[![Portfolio](https://img.shields.io/badge/QA%20Toolkit-Open%20Source-4f46e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GeEgea/qa-support-toolkit)
+**Transformo necessidades de negócio em soluções digitais, processos de qualidade e experiências mais acessíveis.**
+
+[![Portfólio](https://img.shields.io/badge/VER_PORTFÓLIO-0D6B6E?style=for-the-badge)](https://geegea.github.io/GeEgea/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geovana-egea/) [![Email](https://img.shields.io/badge/E--mail-Contato-555?style=for-the-badge&logo=gmail)](mailto:egea.ge@gmail.com)
+
+**São Paulo, Brasil · Projetos e parcerias remotas**
 
 </div>
 
 ---
 
-## 👩‍💻 Geovana Egea
+## Sobre mim
 
-**QA Engineer & AI Quality Specialist** with 4+ years in regulated software projects.
+Sou profissional de **Quality Assurance**, com experiência em **coordenação da frente de acessibilidade digital**, mentoria de QAs e desenvolvedores, análise de requisitos, visão de produto e gestão de qualidade em ambientes regulados.
 
-I don't just use AI — I **test, audit and build tooling with it.**  
-Currently working simultaneously as **QA Lead + Product Owner** across fintech, legal and contract management platforms.
+Minha atuação conecta as necessidades do cliente à entrega técnica: estruturo estratégias de teste, priorizo riscos, documento sistemas complexos, conduzo validações de acessibilidade e desenvolvo soluções digitais com apoio de inteligência artificial. Atuei em iniciativas nos setores **bancário, jurídico e regulatório**, incluindo trabalhos relacionados a HSBC, Regula BT e Studio Juris.
 
-```yaml
-Role        : Quality Engineering Lead | AI Evaluation & QA Automation
-Focus       : Regulated domains · WCAG 2.1 AA · AI Agent Testing
-Experience  : 4+ years · Consultancy · Fintech · Legal · Contracts
-Languages   : Python · JavaScript · SQL
-Currently   : Building AI-augmented QA workflows with Claude AI
-Open to     : Collaborations · Custom QA implementations · Consulting
-```
+Além das entregas para clientes, desenvolvo ferramentas próprias na **Consult Egea**, unindo observabilidade, qualidade, acessibilidade e IA. Utilizo IA como apoio à produção e automação, mantendo avaliação humana, rastreabilidade e validação dos resultados.
 
----
+> Meu diferencial não é só encontrar defeitos. É compreender o negócio, organizar o trabalho entre pessoas e tecnologia e transformar problemas em entregas verificáveis.
 
-## 🧠 What I actually do
+## Onde gero valor
 
-| | Specialization | Details |
+| Frente | Atuação |
+|---|---|
+| **Liderança e acessibilidade** | Coordenação de atividades de acessibilidade, orientação e mentoria de QAs e desenvolvedores, WCAG 2.1/2.2 A/AA, testes manuais com teclado e tecnologias assistivas. |
+| **QA e gestão de riscos** | Estratégia de testes funcionais web/mobile, cenários e casos, testes exploratórios e de regressão, evidências e acompanhamento de defeitos. |
+| **Produto e requisitos** | Atuação como PO e QA, critérios de aceite, priorização, especificação, engenharia reversa e comunicação com stakeholders. |
+| **Soluções digitais e IA** | Prototipação navegável, ferramentas internas, fluxos assistidos por IA, documentação, painéis e suporte à automação. |
+| **Governança** | Relatórios executivos, rastreabilidade, organização de testes e visão de qualidade para decisões de negócio. |
+
+## Portfólio e cases
+
+### [Acesse meu portfólio profissional completo](https://geegea.github.io/GeEgea/)
+
+O site apresenta **experiência, cases, trajetória, produtos próprios e ferramentas** em uma página navegável. Nele você encontra trabalhos como:
+
+- **Regula BT** — qualidade de uma plataforma de processos regulatórios, acompanhamento de funcionalidades, documentação de produto e observabilidade.
+- **HSBC** — acessibilidade digital em contexto bancário, com aplicação de critérios WCAG e orientação técnica de equipes.
+- **Studio Juris** — colaboração em produto, prototipação de CRM jurídico e apoio ao ciclo de desenvolvimento.
+- **Avaliação de agentes de IA** — planejamento de cenários, regressão e análise de comportamento com foco em qualidade e confiabilidade.
+- **Documentação e engenharia reversa** — organização de requisitos complexos e rastreabilidade para equipes de produto e desenvolvimento.
+
+*Os exemplos públicos são apresentados em nível profissional, sem disponibilizar informações confidenciais dos clientes.*
+
+## Produtos e iniciativas autorais
+
+| Iniciativa | Proposta | Situação comunicada |
 |---|---|---|
-| 🤖 | **AI Quality & Evaluation** | Test and audit LLM systems, AI agents, RAG pipelines and prompt behavior |
-| 🧪 | **QA Engineering** | Functional · Exploratory · Regression · Acceptance · Release governance |
-| ♿ | **Digital Accessibility** | WCAG 2.1 AA audits · severity classification · remediation roadmaps |
-| 📋 | **Product Ownership** | Backlog · sprint planning · cross-team alignment · stakeholder communication |
-| 🔧 | **QA Tooling & Automation** | Python pipelines · Jira data extraction · AI-augmented QA workflows |
+| **CE QI+** | Plataforma de gestão de qualidade, assessments, findings, evidências, métricas e relatórios executivos. | Desenvolvimento e validações em andamento. |
+| **CE IA+** | Solução focada em diagnóstico de acessibilidade digital, análise WCAG e relatórios. | Em desenvolvimento. |
+| **QA Nav** | Extensão de navegador para apoiar atividades de teste manual e organização de evidências. | Evolução do produto. |
+| **WCAG Scanner** | Ferramenta de linha de comando para apoiar avaliações automáticas e checklists manuais de acessibilidade. | Em validação. |
+| **QA Support Toolkit** | Skills e materiais reutilizáveis para planejamento e documentação de QA. | [Repositório público](https://github.com/GeEgea/qa-support-toolkit). |
+| **Consult Egea** | Marca voltada a serviços de qualidade, acessibilidade e soluções digitais. | Estruturação comercial. |
+
+## Ferramentas e tecnologias
+
+**Qualidade e acessibilidade:** WCAG 2.1/2.2, axe-core, Lighthouse, WAVE, NVDA, JAWS, VoiceOver, Jira, Zephyr, Postman, Playwright e Cypress (em evolução).
+
+**Produto, desenvolvimento e IA aplicada:** Git/GitHub, VS Code, React, Next.js, TypeScript, Vue/Vuetify, Vite, Prisma/PostgreSQL, Claude e Codex.
+
+**Competências centrais:** gestão de testes, análise de requisitos, design de fluxos, prototipação, facilitação, mentoria, documentação e comunicação entre negócio e tecnologia.
+
+*Ferramentas e linguagens não representam o mesmo nível de proficiência. Parte da implementação e automação é realizada com apoio de IA e validada tecnicamente.*
+
+## Experiência que conecta áreas
+
+**Qualidade + Acessibilidade + Produto + Comunicação com o negócio**
+
+Tenho experiência em coordenar esforços de acessibilidade digital, orientar profissionais, acompanhar entregas regulatórias e desenvolver estruturas que tornam a qualidade mais visível. Meu trabalho inclui desde a definição de cenários até relatórios para tomada de decisão, passando por protótipos navegáveis e soluções reutilizáveis.
+
+## Vamos conversar?
+
+Estou aberta a **oportunidades profissionais remotas, projetos e parcerias** em qualidade, acessibilidade, análise de produto e soluções digitais.
+
+- [Portfólio completo](https://geegea.github.io/GeEgea/)
+- [LinkedIn](https://www.linkedin.com/in/geovana-egea/)
+- [GitHub](https://github.com/GeEgea)
+- [E-mail](mailto:egea.ge@gmail.com)
 
 ---
 
-## 🚀 Featured project
-
-### [🧪 qa-support-toolkit](https://github.com/GeEgea/qa-support-toolkit)
-> Open-source Claude AI plugin for QA Engineering — Junior and Pleno level
-
-`bug-report` · `test-case-generation` · `regression-plan`  
-`exploratory-testing` · `weekly-status-report` · `session-summary-generator`
-
-**This is the public layer.** I maintain a broader private toolkit with additional skills covering advanced topics, regulated domains, and domain-specific workflows — built on demand for each client's context.
-
-> 📩 Need custom skills or a full QA toolkit for your team? **egea.ge@gmail.com**
-
----
-
-## 🛠️ Tools & Stack
-
-![Claude AI](https://img.shields.io/badge/Claude_AI-Plugin%20Builder-orange?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![WCAG](https://img.shields.io/badge/WCAG_2.1_AA-16a34a?style=flat-square)
-
----
-
-## 📌 Background
-
-- 🏦 QA in **regulated fintech** (regulatory monitoring, compliance flows, GMUD governance)
-- ⚖️ QA + PO in **legal tech** (CRM, contract management, document workflows)
-- ♿ Accessibility specialist for **HSBC** and other regulated clients
-- 🤖 Built a **200+ mode AI QA ecosystem** — 13 skill categories covering the full QA lifecycle
-- 🐍 Python automation for Jira extraction, data pipelines and QA reporting
-- 🧬 **AI agent auditing** — tested LLM agents against system prompt behavior across 28+ structured scenarios
-
----
-
-<div align="center">
-
-*Open to collaborations, custom QA implementations and consulting.*  
-**📩 egea.ge@gmail.com · [LinkedIn](https://www.linkedin.com/in/geovana-egea/)**
-
-</div>
+<div align="center"><sub>Portfólio profissional de Geovana Egea · Consult Egea</sub></div>
