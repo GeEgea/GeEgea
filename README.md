@@ -1,7 +1,7 @@
-[README.md](https://github.com/user-attachments/files/35051735/README.md)
+[README.md](https://github.com/user-attachments/files/35052987/README.md)
 <div align="center">
 
-[![Consult Egea — site oficial](assets/consult-egea-logo.png)](https://consultegea.com.br/)
+<a href="https://consultegea.com.br/"><img src="https://raw.githubusercontent.com/GeEgea/GeEgea/main/assets/consult-egea-logo.png" alt="Consult Egea — site oficial" width="210" /></a>
 
 # Geovana Egea
 
@@ -11,7 +11,7 @@
 
 [![Consult Egea](https://img.shields.io/badge/Consult_Egea-Site_Oficial-075C84?style=for-the-badge)](https://consultegea.com.br/) [![Portfólio](https://img.shields.io/badge/VER_PORTFÓLIO-0D6B6E?style=for-the-badge)](https://geegea.github.io/GeEgea/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geovana-egea/) [![Email](https://img.shields.io/badge/E--mail-Contato-555?style=for-the-badge&logo=gmail)](mailto:egea.ge@gmail.com)
 
-**São Paulo, Brasil · Produtos disponíveis · Licenciamento · Consultoria**
+**São Paulo, Brasil · Produtos disponíveis · Licenciamento · Consultoria remota**
 
 </div>
 
@@ -53,7 +53,7 @@ O site apresenta **experiência, cases, trajetória, produtos próprios e ferram
 
 ## Produtos Consult Egea — disponíveis comercialmente
 
-**Os produtos estão disponíveis para demonstração, negociação, e contratação conforme o escopo.** Atendo empresas e equipes de forma remota. Solicite uma proposta para receber condições comerciais, preços e opções de entrega.
+**Os produtos estão disponíveis para demonstração, negociação de licença, implantação ou contratação conforme o escopo.** Atendo empresas e equipes de forma remota. Solicite uma proposta para receber condições comerciais, preços e opções de entrega.
 
 **[Conhecer catálogo e portfólio](https://geegea.github.io/GeEgea/#produtos)** · **[Solicitar demonstração ou orçamento no site da Consult Egea](https://consultegea.com.br/)**
 
@@ -90,7 +90,7 @@ Tenho experiência em coordenar esforços de acessibilidade digital, orientar pr
 
 **[Acesse a Consult Egea — site oficial para contratação e orçamento](https://consultegea.com.br/)**
 
-A **Consult Egea** oferece produtos e serviços próprios para empresas. Entre em contato para demonstrações, orçamento, licenciamento e personalização. Também estou aberta a parcerias profissionais.
+A **Consult Egea** oferece produtos e serviços próprios para empresas. Entre em contato para demonstrações, orçamento, licenciamento e personalização. Também estou aberta a parcerias profissionais remotas.
 
 - [Consult Egea — solicitar serviços e produtos](https://consultegea.com.br/)
 - [Portfólio completo](https://geegea.github.io/GeEgea/)
